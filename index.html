@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Game Tut</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="game-con" id="gameCon">
+      <div class="header" id="header">
+        <h2></h2>
+      </div>
+      
+      <div class="display">
+        <ul id="history"></ul>
+        <h2 id="botDisplay"></h2>
+        <h2 id="display"></h2>
+      </div>
+      <h2>Score board</h2>
+      <div class="scoreBoard">
+        <h1 >Player: <span id="playerScore"></span></h1>
+        <h1>Bot: <span id="botScore"></span></h1>
+      </div>
+
+      <div class="btn">
+        <button class="btnImg" id="rockBtn">
+          <img src="/images/rock.png" alt="rockImg" class="bImg"/>
+        </button>
+        <button class="btnImg" id="paperBtn">
+          <img src="/images/paper.png" alt="paperImg" class="bImg"/>
+        </button>
+        <button class="btnImg" id="scissorsBtn">
+          <img src="/images/scissor.png" alt="scissorImg" class="bImg"/>
+        </button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
